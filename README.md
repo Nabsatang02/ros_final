@@ -26,7 +26,7 @@ git clone --recursive https://github.com/Nabsatang02/ros_final.git
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+ros2 launch custom_map patrol_world.launch.py
 ````
 
 ### Terminal 2 — Pose Monitor Node
