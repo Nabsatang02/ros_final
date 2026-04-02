@@ -8,6 +8,7 @@ To clone the repository along with the submodules:
 
 ```bash
 git clone --recursive https://github.com/Nabsatang02/ros_final.git
+cd ros_final
 ```
 
 ---
@@ -15,6 +16,7 @@ git clone --recursive https://github.com/Nabsatang02/ros_final.git
 ### To Build
 
   ```bash
+  source /opt/ros/humble/setup.bash
   colcon build
   ```
 
@@ -52,3 +54,10 @@ source /opt/ros/humble/setup.bash
 source install/setup.bash
 ros2 run patrol_bot sensor_node
 ```
+---
+
+## Demo Video
+
+https://www.youtube.com/watch?v=yJ5GLD4vzqI
+
+Note: It turns out that the video was recorded without audio due to an issue during the recording process. As a result, no sound is present in the demo.
